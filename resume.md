@@ -21,27 +21,39 @@ Github：[https://github.com/KuangjuX](https://github.com/KuangjuX)
 
 ## 项目经历
 
-### [xv6-rust](https://github.com/Ko-oK-OS/xv6-rust) 												比赛项目
+### xv6-rust												比赛项目
+
+项目地址：https://github.com/Ko-oK-OS/xv6-rust
 
 使用Rust语言重新实现xv6-riscv并添加网络协议栈与网卡驱动，使用伙伴内存分配系统代替朴素的链表分配
 
-### [allocator](https://github.com/Ko-oK-OS/allocator)												比赛项目
+### allocator												比赛项目
+
+项目地址： https://github.com/Ko-oK-OS/allocator
 
 使用Rust语言实现伙伴内存分配系统
 
-### [Langhuan-Blessed-Land](https://github.com/KuangjuX/Langhuan-Blessed-Land)				  	 个人项目
+### Langhuan-Blessed-Land				  	 个人项目
+
+项目地址：https://github.com/KuangjuX/Langhuan-Blessed-Land
 
 一个社区后端，基于Go，Docker，Nginx，Mysql，Redis，WebSocket，JWT开发
 
-### [leptjson](https://github.com/KuangjuX/leptjson)												  个人项目
+### leptjson											  个人项目
+
+项目地址：https://github.com/KuangjuX/leptjson
 
 一个简单的手写递归下降的JSON解析器
 
-### [Naive-DataBase](https://github.com/KuangjuX/Naive-DataBase)									个人项目
+### Naive-DataBase									个人项目
+
+项目地址：https://github.com/KuangjuX/Naive-DataBase
 
 一个简单的数据库（未完成）
 
-### [NEMU](https://github.com/KuangjuX/NEMU2020)												   课内项目
+### NEMU											   课内项目
+
+项目地址：https://github.com/KuangjuX/NEMU2020	
 
 一个参考QEMU开发的x86-32硬件模拟器
 
