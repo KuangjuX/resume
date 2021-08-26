@@ -1,3 +1,4 @@
-resume.aux
-resume.synctex.gz
-resume.log
+*.aux
+*.synctex.gz
+*.log
+*.out
