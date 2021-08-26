@@ -1,0 +1,95 @@
+\documentclass{cv}
+
+\usepackage{fontawesome5}
+\usepackage{fontspec}
+\usepackage[colorlinks]{hyperref}
+% ----------------------------------------------------------------------------- %
+
+%\setmonofont{FiraCode}
+\begin{document}
+\name{齐呈祥}
+\medskip
+
+\basicinfo{
+  \faPhone ~ (+86) 186-3081-6528
+  \textperiodcentered\
+  \faEnvelope ~ 18630816527@163.com
+  \textperiodcentered\
+  \faGithub ~ \href{https://github.com/KuangjuX}{\color{black}KuangjuX}
+  \textperiodcentered\
+  \faBlog ~ \href{http://blog.kuangjux.top}{\color{black}{blog}}
+}
+
+% ----------------------------------------------------------------------------- %
+
+\section{教育背景}
+\dateditem{\textbf{天津大学} \quad 计算机科学与技术\quad 本科}{2019年 -- 至今 }
+
+
+% ----------------------------------------------------------------------------- %
+
+\section{专业技能}
+\smallskip
+\textbf{Programming}
+\quad C/C++/Rust/Go/Python/Js/PHP
+
+\textbf{Tools} Git/GNU Make
+
+% ----------------------------------------------------------------------------- %
+
+\section{工作经历}
+\dateditem{\textbf{天津大学} \quad 助教} {2021年 8月 -至今}
+
+\begin{itemize}
+  \item 计算机系统实践课程
+\end{itemize}
+
+\dateditem{\textbf{天津大学天外天工作室} \quad 后端工程师} {2019年 9 月 - 2021年 2 月}
+
+\begin{itemize}
+  \item 开发校务管理平台
+  \item 维护学校党建系统
+\end{itemize}
+
+% ----------------------------------------------------------------------------- %
+
+\section{项目经历}
+
+\datedproject{Ko-ok-OS/xv6-rust}{比赛项目}{2021年3月 - 至今}
+\\
+使用Rust语言重写和优化 MIT xv6-riscv 操作系统
+\\
+本次项目获得了 2021全国大学生计算机系统能力大赛 操作系统设计赛 功能设计赛道\textbf{三等奖}
+\begin{itemize}
+  \item 将 xv6-riscv 的内存分配系统使用伙伴内存分配系统实现
+  \item 重新设计 SpinLock/SleepLock 使之作为智能指针使用，真正意义上实现了 RAII
+  \item 重新优化了文件系统，尤其在inode和Buffer的实现上更加支持Rust特性
+\end{itemize}
+
+
+\datedproject{Ko-oK-OS/allocator}{比赛项目}{2021年3月 -- 2021年4月}
+\\
+基于Rust语言开发的伙伴内存分配系统，可以用于裸机环境下的内存分配器
+
+\datedproject{LangHuan-Blessed-Land}{个人项目}{2021年1月 -- 2021年2月}
+\\
+基于Go语言编写的仿知乎后端程序
+\begin{itemize}
+  \item 支持Docker部署
+  \item 基于Websocket构建，支持实时聊天功能
+\end{itemize}
+
+\datedproject{NEMU}{课内项目}{2020年9月 -- 2021年1月}
+{\it 计算机系统实践项目}
+\vspace{0.4ex}
+\\ 基于C语言编写的x86-32的虚拟机
+\begin{itemize}
+  \item 实现了调试器
+  \item 实现了指令的解析与执行
+  \item 实现了分段、分页机制、二级缓存机制
+\end{itemize}
+
+\section{竞赛经历}
+\textbf{2021操作系统大赛功能设计赛道}\quad \textbf{三等奖}
+
+\end{document}
