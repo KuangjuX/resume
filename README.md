@@ -3,5 +3,5 @@
 
 [中文简历](zh_CN/resume_zh_CN.pdf)   
   
-[英文简历](resume.pdf)
+[英文简历](en.resume_en.pdf)
 

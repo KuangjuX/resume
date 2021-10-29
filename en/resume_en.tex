@@ -1,0 +1,115 @@
+\documentclass{cv}
+
+\usepackage{fontawesome5}
+\usepackage{fontspec}
+\usepackage[colorlinks]{hyperref}
+% ----------------------------------------------------------------------------- %
+
+%\setmonofont{FiraCode}
+\begin{document}
+\name{ChengXiang Qi}
+\medskip
+
+\basicinfo{
+  \faPhone ~ (+86) 186-3081-6527
+  \textperiodcentered\
+  \faEnvelope ~ 18630816527@163.com
+  \textperiodcentered\
+  \faGithub ~ \href{https://github.com/KuangjuX}{\color{black}KuangjuX}
+  \textperiodcentered\
+  \faBlog ~ \href{http://blog.kuangjux.top}{\color{black}{blog}}
+}
+
+% ----------------------------------------------------------------------------- %
+
+\section{Education}
+\dateditem{\textbf{TianJin University} \quad Undergraduate}{09/2019 -- Persent }
+\begin{itemize}
+  \item Major: Computer Science
+  \item GPA: 3.32/4.0
+\end{itemize}
+
+% ----------------------------------------------------------------------------- %
+
+\section{Skills}
+\smallskip
+\begin{itemize}
+  \item Programming Languages： C/C++/Rust/Go/Python/Js/PHP
+  \item Developing Tools： Linux/Git/GNU Make/VsCode
+  \item System： familiar with operating system concepts and design，implement an unix-like os in Rust; instrested in distributed system. 
+  \item Backend：Golang
+  \item Frontend：Vue.js
+\end{itemize}
+
+
+% ----------------------------------------------------------------------------- %
+
+
+\section{Work Experience}
+\dateditem{\textbf{TianJin University} \quad Teaching Assignment} {08/2019 - Persent}
+
+\begin{itemize}
+  \item Practice Of ICS in 2021
+\end{itemize}
+
+\dateditem{\textbf{TWT Studio} \quad Backend Engineer} {09/2019 - 02/2021}
+
+\begin{itemize}
+  \item Develop The Platform Of School Affiars
+  \item Maintain The Platform Of Party
+\end{itemize}
+
+% ----------------------------------------------------------------------------- %
+
+\section{Projects}
+
+\datedproject{Ko-ok-OS/xv6-rust}{Contest}{03/2021 - Persent}
+{\it Re-implement and optimize MIT xv6-riscv in Rust}
+\vspace{0.4ex}
+\\
+The project won \textbf{the third prize} of the Operating System Competition in 2021
+\begin{itemize}
+  \item Optimize memory module using Buddy System 
+  \item Redesign SpinLock/SleepLock to be used as a smart pointer, realizing RAII in a true sense
+  \item Optimized the file system, especially supporting Rust features in the implementation of inode and Buffer
+\end{itemize}
+
+
+\datedproject{rCore-fat}{Summer2021}{07/2021 - 09/2021}
+{\it rCore-Tutorial-v3 With FAT32 File System}
+\vspace{0.4ex}
+\begin{itemize}
+  \item Implement FAT32 crate in alloc environment
+  \item Re-design syscall for rCore-fat
+\end{itemize}
+
+
+\datedproject{TrivialTCP}{Course}{2021年8月 -- 2021年9月}
+{\it TCP/IP Stack based UDP written by C}
+\vspace{0.4ex}
+\begin{itemize}
+  \item Realize TCP standards such as \textbf{connection management/reliable transmission/flow control/congestion control}
+\end{itemize}
+
+
+\datedproject{NEMU}{Course}{09/2020 -- 01/2021}
+{\it x86-32 Virtual Machine written by C}
+\vspace{0.4ex}
+\begin{itemize}
+  \item Debugger
+  \item Decode, Execute Instructions
+  \item Segmentation, paging, secondary cache
+\end{itemize}
+
+\section{竞赛经历}
+\begin{itemize}
+  \item \textbf{Operating System Competition in 2021}\quad \textbf{Three Prize}
+  \item \textbf{Summer2021}\quad \textbf{Pass The Final Review}
+\end{itemize}
+
+\section{Others}
+\begin{itemize}
+  \item Interest：OS、Distributed System、Computer Architecture
+\end{itemize}
+
+\end{document}
