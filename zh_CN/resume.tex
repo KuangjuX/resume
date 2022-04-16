@@ -1,0 +1,108 @@
+% !TEX program = xelatex
+
+\documentclass{resume}
+%\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{ChengXiang Qi}
+
+\basicInfo{
+  \href{mailto:18630816527@163.com}{18630816527@163.com} $\bullet$
+  \href{https://github.com/KuangjuX}{GitHub (\textbf{117} followers)}
+}
+
+\section{Education}
+\datedsubsection{\textbf{\href{http://cic.tju.edu.cn/}{TianJin Univeristy}}, TianJin, China}{08/2019 -- 07/2023(Expected)}
+Computer Science and Technology, GPA: 3.361/4
+
+\section{Selected Open-source Projects}
+\datedsubsection{\href{https://github.com/Ko-oK-OS/xv6-rust}{\textbf{xv6-rust}}: Re-implement and optimize MIT xv6-riscv in Rust((\textbf{45} stars))}{03/2021 -- 08/2021}
+\begin{itemize}
+  \item Optimize memory module using Buddy System 
+  \item Redesign SpinLock/SleepLock to be used as a smart pointer, realizing RAII in a true sense
+  \item Optimized the file system, especially supporting Rust features in the implementation of inode and Buffer
+\end{itemize}
+
+\datedsubsection{\href{https://github.com/KuangjuX/rCore-fat}{\textbf{rCore-fat}}: rCore-Tutorial-v3 With FAT32 File System}{07/2021 - 08/2021}
+\begin{itemize}
+  \item Implement FAT32 crate in alloc environment
+  \item Re-design syscall for rCore-fat
+\end{itemize}
+
+\datedsubsection{\href{https://github.com/KuangjuX/xv6-riscv-solution}{\textbf{xv6-riscv-solution}}: x86-32 Virtual Machine written by C}{09/2020 - 01/2021}
+\begin{itemize}
+  \item I finished some lab assignments in this course by self-taught.
+\end{itemize}
+
+
+\datedsubsection{\href{https://github.com/KuangjuX/Trivial-TCP}{\textbf{Trivial-TCP}}: TCP/IP Stack based UDP written by C}{09/2021 - 10/2021}
+\begin{itemize}
+  \item Realize TCP standards such as \textbf{connection management/reliable transmission/flow control/congestion control}
+\end{itemize}
+
+\datedsubsection{\href{https://github.com/KuangjuX/NEMU}{\textbf{NEMU}}: MIT 6.S081 (6.828) 2019 RISC-V Lab}{07/2021 - 08/2021}
+\begin{itemize}
+  \item Debugger
+  \item Decode, Execute Instructions
+  \item Segmentation, paging, secondary cache
+\end{itemize}
+
+\section{Experience}
+\datedsubsection{\textbf{\href{http://cic.tju.edu.cn/}{TianJin University}}}{TianJin}
+\datedsubsection{Teaching Assignment}{09/2021 -- 11/2021}
+\begin{itemize}
+  \item Practice Of ICS in 2021
+\end{itemize}
+
+\datedsubsection{\textbf{\href{https://www.twt.edu.cn/home/}{TWT Studio}}}{TianJin}
+\datedsubsection{Software Enginer}{09/2019 -- 01/2021}
+\begin{itemize}
+  \item Develop The Platform Of School Affiars
+  \item Maintain The Platform Of Party
+\end{itemize}
+
+% % \datedsubsection{\href{http://ml.cs.tsinghua.edu.cn/}{\textbf{Statistical AI \& Learning (TSAIL) Group}}, Tsinghua University}{Beijing, China}
+% % \datedsubsection{Research Assistant}{03/2018 -- 08/2020}
+% % \begin{itemize}
+% % \item Ranked the first place in VizDoom AI Competition 2018, passing 8 out of 10 tasks far exceeding the second place which only passed 4 tasks, by proposing an environment-aware hierarchical reinforcement learning algorithm, which was accepted by IJCAI'19
+% % \item Implemented an elegant, light-weighted deep reinforcement learning library \href{https://github.com/thu-ml/tianshou}{Tianshou} with 3.5k GitHub stars
+% % \end{itemize}
+
+% \datedsubsection{\textbf{\href{http://mila.quebec/en}{Montreal Institute for Learning Algorithms (MILA)}}}{Montréal, QC}
+% \datedsubsection{Research Assistant, Advisor: Prof. \href{https://mila.quebec/en/yoshua-bengio/}{Yoshua Bengio}}{07/2019 -- 10/2019}
+% \begin{itemize}
+%     \item Proposed \textit{Rule-Transformer} for better disentanglement and out-of-distribution generalization
+%     \item Evaluated in a wide range of tasks from machine translation to multitask imitation learning
+% \end{itemize}
+
+% \datedsubsection{\textbf{\href{https://www.sensetime.com/en}{Sensetime Inc.}}}{Beijing, China}
+% \datedsubsection{Research Intern}{03/2018 -- 06/2018}
+% \begin{itemize}
+%     \item Designed and optimized a temporal and spatial domain-based noise reduction network
+%     \item Generated high-quality results in about 70ms given eight 12M pixel full-resolution images on a GTX1060
+% \end{itemize}
+
+% \section{Selected Awards}
+% \begin{itemize}
+%   \item \textbf{Operating System Competition in 2021}\quad \textbf{Three Prize in Team Competition}
+%   \item \textbf{Summer2021}\quad \textbf{The Best Quality Award(only 5)}
+% \end{itemize}
+
+
+
+\section{Skills}
+\textbf{Programming Languages:} \small Rust, C, Go, Python, C++, Systemverilog/Verilog, PHP, JavaScript, HTML/CSS (ranked by proficiency)
+
+\textbf{Tools and Frameworks:} \small Git, GNU Make, CMake, QEMU, Vivado, VSCode
+
+\section{Others}
+\begin{itemize}
+  \item Self-taught CMU 15-445, MIT 6.S081 and many other foreign public courses.
+  \item Interested in OS, Computer Architecture, Distributed Systems.
+\end{itemize}
+
+
+\end{document}
