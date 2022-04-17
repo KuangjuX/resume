@@ -8,7 +8,6 @@
 /*.bat
 /\!*
 .DS_Store
-*.pdf
 
 ############################################
 ## LATEX TEMPORARY FILES
@@ -44,4 +43,4 @@
 myresume.tex
 myresume.pdf
 myresume-zh_CN.tex
-myresume-zh_CN.pdf
+
